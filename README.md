@@ -4,9 +4,10 @@ This repository contains my LeetCode solutions and DSA practice completed as par
 
 ## Topics Covered
 
+- Math
+- Linked Lists
 - Arrays
 - Strings
-- Linked Lists
 - Stacks
 - Queues
 - Searching
