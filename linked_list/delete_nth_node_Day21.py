@@ -1,0 +1,11 @@
+def removeNthFromEnd(self, head: ListNode | None, n: int) -> ListNode | None:
+        dummy = ListNode(0, head)
+        fast = dummy
+        slow = dummy
+        for i in range(n + 1):
+            fast = fast.next
+        while fast:
+            fast = fast.next
+            slow = slow.next
+        slow.next = slow.next.next
+        return dummy.next
